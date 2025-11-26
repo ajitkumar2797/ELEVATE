@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate | Elite Online Fitness Coaching</title>
+    <meta name="description" content="Transform your body and elevate your life with premium online fitness coaching.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Logo" class="logo-img">
+                ELEVATE<span class="accent">.</span>
+            </a>
+            <div class="nav-links">
+                <a href="#programs">Programs</a>
+                <a href="#free-resources">Free Guides</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#intake" class="btn btn-primary">Join Now</a>
+                <div class="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-split-layout">
+                <!-- Left: Text Content -->
+                <div class="hero-text reveal">
+                    <h1 class="hero-title">Transform Your <span class="text-outline">Life.</span></h1>
+                    <p class="hero-subtitle">Build muscle, lose weight, and master your mindset.</p>
+                    <div class="hero-btns">
+                        <a href="#intake" class="btn btn-primary">Join Coaching Program</a>
+                        <a href="#free-resources" class="btn btn-outline">Free Resources</a>
+                    </div>
+                </div>
+
+                <!-- Right: Vertical Video -->
+                <div class="hero-visual reveal reveal-delay-1">
+                    <div class="video-card">
+                        <video autoplay muted loop playsinline poster="images/hero-bg.jpg">
+                            <source src="videos/hero-video.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal">Choose Your Path</h2>
+            </div>
+
+            <div class="carousel-wrapper reveal">
+                <div class="carousel-nav">
+                    <button class="nav-btn prev-btn" aria-label="Previous"><i data-lucide="chevron-left"></i></button>
+                    <button class="nav-btn next-btn" aria-label="Next"><i data-lucide="chevron-right"></i></button>
+                </div>
+
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Weight Loss -->
+                        <div class="card program-card has-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80');">
+                            <div class="card-content">
+                                <div class="card-icon"><i data-lucide="flame"></i></div>
+                                <h3>Weight Loss</h3>
+                                <p>High-intensity interval training and nutritional guidance to shed fat effectively.
+                                </p>
+                                <a href="weight-loss.html" class="btn-text">Explore Program <i
+                                        data-lucide="arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Muscle Building -->
+                        <div class="card program-card has-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&q=80');">
+                            <div class="card-content">
+                                <div class="card-icon"><i data-lucide="dumbbell"></i></div>
+                                <h3>Muscle Building</h3>
+                                <p>Hypertrophy-focused routines to build lean muscle mass and strength.</p>
+                                <a href="#contact" class="btn-text">Explore Program <i
+                                        data-lucide="arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Men's Programs -->
+                        <div class="card program-card has-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&q=80');">
+                            <div class="card-content">
+                                <div class="card-icon"><i data-lucide="users"></i></div>
+                                <h3>Men's Programs</h3>
+                                <p>Tailored workout plans specifically designed for men's physiology and goals.</p>
+                                <a href="#contact" class="btn-text">Explore Program <i
+                                        data-lucide="arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Women's Programs -->
+                        <div class="card program-card has-bg"
+                            style="background-image: url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80');">
+                            <div class="card-content">
+                                <div class="card-icon"><i data-lucide="user"></i></div>
+                                <h3>Women's Programs</h3>
+                                <p>Empowering workouts focused on toning, strength, and confidence.</p>
+                                <a href="#contact" class="btn-text">Explore Program <i
+                                        data-lucide="arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Resources Section -->
+    <section id="free-resources" class="resources bg-darker">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Free Training Plans</h2>
+            <div class="grid resources-grid">
+                <!-- 5-Day Split -->
+                <div class="resource-card reveal reveal-delay-1">
+                    <div class="resource-info">
+                        <h3>5-Day Split (Hypertrophy)</h3>
+                        <p>A complete push/pull/legs routine for maximum growth.</p>
+                    </div>
+                    <!-- Direct Download Link -->
+                    <a href="https://drive.google.com/uc?export=download&id=1uK8Nfn5lPS0s1mXQ7DG4E_CCdmcEEJLu"
+                        download="5-Day-Split-Workout.pdf" target="_blank" class="btn btn-outline btn-sm">
+                        <i data-lucide="download"></i> Download PDF
+                    </a>
+                </div>
+                <!-- HIIT Cardio -->
+                <div class="resource-card reveal reveal-delay-2">
+                    <div class="resource-info">
+                        <h3>HIIT Cardio Routine</h3>
+                        <p>20-minute fat burner you can do anywhere.</p>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="alert('Coming Soon!')">
+                        <i data-lucide="lock"></i> Coming Soon
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intake Form -->
+    <section id="intake" class="section">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-content reveal">
+                    <h2 class="section-title">Ready to <span class="accent">Start?</span></h2>
+                    <p>Fill out the form to apply for 1-on-1 coaching. I only take on a limited number of clients to
+                        ensure personalized attention.</p>
+                    <ul class="benefits-list">
+                        <li><i data-lucide="check-circle"></i> Customized Nutrition Plan</li>
+                        <li><i data-lucide="check-circle"></i> Tailored Workout Routine</li>
+                        <li><i data-lucide="check-circle"></i> 24/7 Support & Check-ins</li>
+                    </ul>
+                </div>
+                <div class="form-wrapper">
+                    <form id="coaching-form">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="email@example.com" required
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number (WhatsApp)</label>
+                            <input type="tel" name="phone" placeholder="+91 98765 43210" required>
+                        </div>
+
+                        <!-- Age & Gender Row -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Age</label>
+                                <input type="number" name="age" placeholder="e.g. 25" min="18" max="100" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Gender</label>
+                                <select name="gender">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Weight Row -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Current Weight (kg)</label>
+                                <input type="number" name="current_weight" id="current-weight" placeholder="e.g. 75"
+                                    min="35" max="150" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Goal Weight (kg)</label>
+                                <input type="number" name="goal_weight" id="goal-weight" placeholder="e.g. 65" min="35"
+                                    max="150" required>
+                            </div>
+                        </div>
+
+                        <!-- Goal (Full Width) -->
+                        <div class="form-group">
+                            <label>Primary Goal</label>
+                            <select name="goal" id="goal-select">
+                                <option value="Fat / Weight loss">Fat / Weight loss</option>
+                                <option value="Weight Gain">Weight Gain</option>
+                                <option value="Muscle Gain Bodybuilding">Muscle Gain Bodybuilding</option>
+                                <option value="General Fitness">General Fitness</option>
+                                <option value="Calisthenic ( Beginner)">Calisthenic ( Beginner)</option>
+                            </select>
+                        </div>
+
+                        <!-- Message (Full Width) -->
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message"
+                                placeholder="Tell me about your current struggles, injuries, or specific targets..."
+                                rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+                    </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-darker">
+        <div class="container">
+            <div class="split-layout reverse">
+                <div class="split-content">
+                    <h2 class="section-title">Meet Your <span class="accent">Coach</span></h2>
+                    <h3 class="coach-name">Ajit Kumar</h3>
+                    <p>IT Professional who is passionate Fitness coach.</p>
+                    <p>With over 12+ years of experience transforming physiques, I believe in a science-based approach
+                        to
+                        fitness that fits into your lifestyle, not controls it.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/ajitandkavya" target="_blank"><i data-lucide="instagram"></i></a>
+                        <a href="https://linkedin.com/in/ajitkumar27" target="_blank"><i data-lucide="linkedin"></i></a>
+                    </div>
+                    <a href="#intake" class="btn btn-primary">Book Consultation</a>
+                </div>
+                <div class="coach-image">
+                    <img src="images/ajit.jpg" alt="Coach Ajit">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Invest in <span class="accent">Yourself</span></h2>
+            </div>
+            <div class="grid pricing-grid">
+                <div class="card pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$49<span>/mo</span></div>
+                    <ul>
+                        <li>Custom Workout Plan</li>
+                        <li>Monthly Adjustments</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#intake" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+                <div class="card pricing-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Premium</h3>
+                    <div class="price">$149<span>/mo</span></div>
+                    <ul>
+                        <li>Custom Workout & Meal Plan</li>
+                        <li>Weekly Check-ins</li>
+                        <li>Form Analysis</li>
+                        <li>24/7 WhatsApp Support</li>
+                    </ul>
+                    <a href="#intake" class="btn btn-primary btn-block">Get Started</a>
+                </div>
+                <div class="card pricing-card">
+                    <h3>Transformation</h3>
+                    <div class="price">$999<span>/3mo</span></div>
+                    <ul>
+                        <li>All Premium Features</li>
+                        <li>1-on-1 Video Calls (Bi-weekly)</li>
+                        <li>Grocery Shopping Guide</li>
+                        <li>Supplement Guide</li>
+                    </ul>
+                    <a href="#intake" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title center">Success <span class="accent">Stories</span></h2>
+            <div class="grid testimonials-grid">
+                <div class="card testimonial-card">
+                    <p>"Changed my life. I lost 20lbs in 3 months and feel stronger than ever."</p>
+                    <div class="user">
+                        <div class="avatar">JD</div>
+                        <div>
+                            <h4>John Doe</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card testimonial-card">
+                    <p>"The meal plans are actually delicious. I never felt deprived."</p>
+                    <div class="user">
+                        <div class="avatar">AS</div>
+                        <div>
+                            <h4>Sarah Smith</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Connect Section -->
+    <section id="social" class="section bg-darker text-center">
+        <div class="container">
+            <div class="social-banner reveal">
+                <div class="social-icon-large">
+                    <i data-lucide="instagram"></i>
+                </div>
+                <h2 class="section-title">Daily Motivation & Tips</h2>
+                <p class="section-subtitle">Join the community on Instagram for behind-the-scenes, workout clips, and
+                    daily inspiration.</p>
+                <a href="https://instagram.com/yourusername" target="_blank" class="btn btn-instagram btn-lg">
+                    <i data-lucide="instagram"></i> Follow @YourHandle
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo">ELEVATE<span class="accent">.</span></a>
+                <p>Empowering you to reach your peak potential.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#programs">Programs</a>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>info@elevatecoaching.com</p>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Elevate Coaching. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Chat -->
+    <a href="#" class="floating-chat">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i data-lucide="check-circle"></i>
+            </div>
+            <h3>Application Received!</h3>
+            <p>Thank you for taking the first step. I will review your details and get back to you within 24 hours.</p>
+            <button id="close-modal" class="btn btn-primary">Awesome</button>
+        </div>
+    </div>
+
+    <!-- Mobile Bottom Navigation (App-like) -->
+    <nav class="mobile-bottom-nav">
+        <a href="#home" class="nav-item active">
+            <i data-lucide="home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#programs" class="nav-item">
+            <i data-lucide="dumbbell"></i>
+            <span>Plans</span>
+        </a>
+        <a href="#about" class="nav-item">
+            <i data-lucide="user"></i>
+            <span>Coach</span>
+        </a>
+        <a href="#contact" class="nav-item">
+            <i data-lucide="message-circle"></i>
+            <span>Chat</span>
+        </a>
+    </nav>
+
+    <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
