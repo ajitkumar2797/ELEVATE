@@ -5,13 +5,17 @@ Since you deleted the previous sheet, please follow these steps exactly to set i
 ## 1. Create a New Google Sheet
 1. Go to [Google Sheets](https://sheets.google.com) and create a **Blank** spreadsheet.
 2. Name it "Fitness Coach Leads".
-3. **CRITICAL:** In the first row (Row 1), add these exact headers in columns A through F:
+3. **CRITICAL:** In the first row (Row 1), add these exact headers in columns A through J:
    - Column A: `timestamp`
    - Column B: `name`
    - Column C: `email`
-   - Column D: `goal`
-   - Column E: `gender`
-   - Column F: `message`
+   - Column D: `phone`
+   - Column E: `age`
+   - Column F: `gender`
+   - Column G: `current_weight`
+   - Column H: `goal_weight`
+   - Column I: `goal`
+   - Column J: `plan_type`
 
 ## 2. Add the Code
 1. In your new Google Sheet, click on **Extensions** > **Apps Script**.

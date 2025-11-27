@@ -77,7 +77,7 @@
     <section id="programs" class="programs">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title reveal">Choose Your Path</h2>
+                <h2 class="section-title reveal">Choose Your Goal</h2>
             </div>
 
             <div class="carousel-wrapper reveal">
@@ -176,12 +176,10 @@
             <div class="split-layout">
                 <div class="split-content reveal">
                     <h2 class="section-title">Ready to <span class="accent">Start?</span></h2>
-                    <p>Fill out the form to apply for 1-on-1 coaching. I only take on a limited number of clients to
-                        ensure personalized attention.</p>
+                    <p>Fill out the form to apply for 1-on-1 Online Coaching.</p>
                     <ul class="benefits-list">
                         <li><i data-lucide="check-circle"></i> Customized Nutrition Plan</li>
                         <li><i data-lucide="check-circle"></i> Tailored Workout Routine</li>
-                        <li><i data-lucide="check-circle"></i> 24/7 Support & Check-ins</li>
                     </ul>
                 </div>
                 <div class="form-wrapper">
@@ -211,7 +209,6 @@
                                 <select name="gender">
                                     <option>Male</option>
                                     <option>Female</option>
-                                    <option>Other</option>
                                 </select>
                             </div>
                         </div>
@@ -235,19 +232,22 @@
                             <label>Primary Goal</label>
                             <select name="goal" id="goal-select">
                                 <option value="Fat / Weight loss">Fat / Weight loss</option>
-                                <option value="Weight Gain">Weight Gain</option>
                                 <option value="Muscle Gain Bodybuilding">Muscle Gain Bodybuilding</option>
+                                <option value="Weight Gain">Weight Gain</option>
                                 <option value="General Fitness">General Fitness</option>
                                 <option value="Calisthenic ( Beginner)">Calisthenic ( Beginner)</option>
                             </select>
                         </div>
 
-                        <!-- Message (Full Width) -->
+                        <!-- Plan Type (Full Width) -->
                         <div class="form-group">
-                            <label>Message</label>
-                            <textarea name="message"
-                                placeholder="Tell me about your current struggles, injuries, or specific targets..."
-                                rows="4"></textarea>
+                            <label>Select Plan</label>
+                            <select name="plan_type" id="plan-select" required>
+                                <option value="" disabled selected>Choose your plan...</option>
+                                <option value="1 Time Plan">1 Time Plan</option>
+                                <option value="3 Months Plan">3 Months Plan</option>
+                                <option value="6 Months Plan">6 Months Plan</option>
+                            </select>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
@@ -265,10 +265,8 @@
                 <div class="split-content">
                     <h2 class="section-title">Meet Your <span class="accent">Coach</span></h2>
                     <h3 class="coach-name">Ajit Kumar</h3>
-                    <p>IT Professional who is passionate Fitness coach.</p>
-                    <p>With over 12+ years of experience transforming physiques, I believe in a science-based approach
-                        to
-                        fitness that fits into your lifestyle, not controls it.</p>
+                    <p>An IT Professional who is passionate about Fitness Coaching.</p>
+                    <p>With over 12+ years of experience transforming physiques.</p>
                     <div class="social-links">
                         <a href="https://instagram.com/ajitandkavya" target="_blank"><i data-lucide="instagram"></i></a>
                         <a href="https://linkedin.com/in/ajitkumar27" target="_blank"><i data-lucide="linkedin"></i></a>
@@ -290,35 +288,34 @@
             </div>
             <div class="grid pricing-grid">
                 <div class="card pricing-card">
-                    <h3>Basic</h3>
-                    <div class="price">$49<span>/mo</span></div>
-                    <ul>
-                        <li>Custom Workout Plan</li>
-                        <li>Monthly Adjustments</li>
-                        <li>Email Support</li>
+                    <h3>1 Time Plan</h3>
+                    <div class="price">₹500<span>/1time</span></div>
+                    <ul class="benefits-list">
+                        <li>🗣️ 1 Time Consultation</li>
+                        <li>💪 Custom Workout Plan</li>
+                        <li>🥗 Custom Diet Plan</li>
                     </ul>
                     <a href="#intake" class="btn btn-outline btn-block">Get Started</a>
                 </div>
                 <div class="card pricing-card featured">
                     <div class="badge">Most Popular</div>
-                    <h3>Premium</h3>
-                    <div class="price">$149<span>/mo</span></div>
-                    <ul>
-                        <li>Custom Workout & Meal Plan</li>
-                        <li>Weekly Check-ins</li>
-                        <li>Form Analysis</li>
-                        <li>24/7 WhatsApp Support</li>
+                    <h3>3 Months Plan</h3>
+                    <div class="price">₹1500<span>/3mo</span></div>
+                    <ul class="benefits-list">
+                        <li>📅 Monthly Check-ins</li>
+                        <li>💪 Custom Workout Plan</li>
+                        <li>🥗 Custom Diet Plan</li>
                     </ul>
                     <a href="#intake" class="btn btn-primary btn-block">Get Started</a>
                 </div>
                 <div class="card pricing-card">
-                    <h3>Transformation</h3>
-                    <div class="price">$999<span>/3mo</span></div>
-                    <ul>
-                        <li>All Premium Features</li>
-                        <li>1-on-1 Video Calls (Bi-weekly)</li>
-                        <li>Grocery Shopping Guide</li>
-                        <li>Supplement Guide</li>
+                    <h3>6 Months Plan</h3>
+                    <div class="price">₹3500<span>/6mo</span></div>
+                    <ul class="benefits-list">
+                        <li>📅 Weekly Check-ins</li>
+                        <li>💪 Custom Workout Plan</li>
+                        <li>🥗 Custom Diet Plan</li>
+                        <li>⚡ Adjustments if needed</li>
                     </ul>
                     <a href="#intake" class="btn btn-outline btn-block">Get Started</a>
                 </div>
@@ -383,7 +380,6 @@
                 <h4>Quick Links</h4>
                 <a href="#programs">Programs</a>
                 <a href="#about">About</a>
-                <a href="#blog">Blog</a>
             </div>
             <div class="footer-col">
                 <h4>Contact</h4>
@@ -395,7 +391,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Elevate Coaching. All rights reserved.</p>
+            <p>&copy; 2026 Elevate Coaching. All rights reserved.</p>
         </div>
     </footer>
 
@@ -411,7 +407,7 @@
                 <i data-lucide="check-circle"></i>
             </div>
             <h3>Application Received!</h3>
-            <p>Thank you for taking the first step. I will review your details and get back to you within 24 hours.</p>
+            <p>Thank you for taking the first step. I will review your details and get back to you shortly.</p>
             <button id="close-modal" class="btn btn-primary">Awesome</button>
         </div>
     </div>
